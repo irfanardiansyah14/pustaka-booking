@@ -2,7 +2,7 @@
 
 class Model_aritmatika extends CI_Model
 {
-    public $nilai1, $nilai2, $hasil;
+    public $nilai1, $nilai2, $hasil, $tes;
 
     public function penjumlahan($n1, $n2)
     {
