@@ -1,10 +1,10 @@
 <?php
 
-class Model_aritmatika extends CI_Model
+class model_Aritmatika extends CI_Model
 {
     public $nilai1, $nilai2, $hasil;
 
-    public function penjumlahan($n1, $n2)
+    public function penjumlahan($n1 = null, $n2 = null)
     {
         $this->nilai1 = $n1;
         $this->nilai2 = $n2;
